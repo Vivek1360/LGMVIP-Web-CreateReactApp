@@ -1,0 +1,106 @@
+body {
+  font-family: "helvetica neue", Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0 auto;
+  background-color: #dfe6e9;
+  text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #3a3845;
+  margin: 0;
+  padding: 20px;
+}
+
+.navbar h1 {
+  float: left;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+}
+
+.navbar button {
+  float: right;
+  min-height: 40px;
+  min-width: 100px;
+  border-radius: 5px;
+  border-color: transparent;
+  font-size: 15px;
+  background-color: #00cec9;
+  color: #fff;
+}
+
+button:hover {
+  background-color: white;
+  color: #3a3845;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2em;
+  color: #2d3436;
+  margin: 30px 0;
+}
+
+hr {
+  border: 1px solid grey;
+  margin: 3% 10%;
+  width: 80%;
+}
+
+.user-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border-radius: 25px;
+  position: relative;
+  padding: 20px 15px;
+  background-color: #81ecec;
+  margin: 40px;
+  height: 150px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: left;
+  width: 400px;
+}
+
+.top {
+  border-radius: 25px 25px 0 0;
+  height: 100px;
+  width: 100%;
+  background-color: #00cec9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+
+.name {
+  font-size: 1.5em;
+  color: #2d3436;
+  display: flex;
+  flex: 1;
+  margin: 10% 20px 0;
+}
+
+.card img {
+  margin: 30px 20px 0 0;
+}
+
+.circle-img {
+  border-radius: 50%;
+  border: 7px solid #fff;
+  width: 30%;
+  height: 120px;
+}
+
+.bottom {
+  margin-top: 100px;
+}
+
+.info {
+  margin: 20px 0;
+  color: #1a7e76;
+}
